@@ -1,4 +1,4 @@
-# trees_that_grow
+# Trees that Grow in Rust
 
 This small Rust project explores the "Trees That Grow" approach for extensible abstract syntax trees (ASTs).
 
