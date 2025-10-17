@@ -221,6 +221,7 @@ impl<A> Descriptor for LE<A> {
     type App = ();
     type Exp = (A, Exp<LE<A>>, Exp<LE<A>>);
 }
+type ExpLE<A> = Exp<LE<A>>;
 
 // 3.10 Existentials and GADTs
 // I couldn't find a straightforward way to realize GADTs in Rust's algebraic data type system.
